@@ -1,0 +1,65 @@
+.conteiner {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os blocos quebrem para uma nova linha */
+    justify-content: space-between;
+}
+
+.bloco {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 5px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px;
+}
+
+.bloco:hover {
+    transform: scale(1.05);
+}
+
+.imagem {
+    max-width: 130%;
+    max-height: 150px;
+    margin-bottom: 10px;
+}
+.contaainer{
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+.h1{
+    text-align: center;
+}
+.h1a{
+    width: 20%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #003e8f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s;
+}
+.principais{
+    top: 0;
+    width: 0;
+}
+.nave{
+    box-shadow: 0px 0px 10px;
+}
+footer {
+    background-color: #003e8f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
