@@ -63,3 +63,6 @@ footer {
     padding: 10px;
     transition: background-color 0.5s, color 0.5s;
 }
+a{
+  color: white;
+}    
